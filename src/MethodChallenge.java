@@ -18,14 +18,16 @@ public class MethodChallenge {
     }
 
     public static int calculateHighScorePosition(int playerScore){
+        int playerPosition = 4;
+
         if (playerScore >= 1000) {
-            return 1;
+            playerPosition = 1;
         } else if (playerScore >= 500) {
-            return 2;
+            playerPosition = 2;
         } else if (playerScore >= 100) {
-          return 3;
+          playerPosition = 3;
         }
 
-        return 4;
+        return playerPosition;
     }
 }
