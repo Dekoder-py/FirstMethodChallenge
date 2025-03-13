@@ -25,7 +25,7 @@ public class MethodChallenge {
         } else if (playerScore >= 500) {
             playerPosition = 2;
         } else if (playerScore >= 100) {
-          playerPosition = 3;
+            playerPosition = 3;
         }
 
         return playerPosition;
